@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="526.36401"
+   height="477.03693"
+   id="svg2"
+   sodipodi:docname="Penrose-dreieck.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1117"
+     inkscape:window-height="987"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.49472061"
+     inkscape:cx="263.18201"
+     inkscape:cy="238.51846"
+     inkscape:window-x="613"
+     inkscape:window-y="4"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4" />
+  <g
+     transform="matrix(1,0,0,-1,-91.423882,730.12352)"
+     id="layer1">
+    <path
+       d="m 312.32408,254.29303 185.55359,330.25875 -206.2649,0.11485 -39.56378,70.71366 365.21799,0.057 L 394.46457,254.0866 Z"
+       style="fill:#ffffff;fill-opacity:0.8;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+       id="path3214"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 312.31392,254.26591 91.923882,655.37223 132.32998,728.10322 315.16759,396.77318 417.193,584.66155 h 80.8122 z"
+       style="fill:#00c7e8;fill-opacity:0.6;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+       id="path4185"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 315.20979,396.83568 40.29125,74.21925 -103.62832,184.37916 365.41516,0.18957 -38.47047,74.49986 -446.47101,-2.04687 z"
+	   style="fill:#00273a;fill-opacity:0.9;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" id="path5156"/>
+       id="path5156"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

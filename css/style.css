@@ -1,0 +1,199 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'NTR', sans-serif;
+  font-size: 1.7vh;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+a:hover,
+a:focus{
+  text-decoration: none;
+  color: #222;
+}
+a:active,
+a:link{
+  text-decoration: none;
+}
+h1{font-size: 5.5vh;}
+h2{font-size: 4.2vh;}
+h3{font-size: 3.1vh;}
+h4{font-size: 2.4vh;}
+h5{font-size: 1.4vh;}
+
+@media(min-width:767px) {
+    .navbar {
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|NTR|Pacifico');
+.navbar{
+  opacity: 0.8;
+  font-size: 2.4vh;
+  color: white;
+  border: none;
+  background-color: white;
+}
+.navbar-default .navbar-nav > .active{
+  background-color: transparent;
+  font-size: 2.8vh;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  font-size: 2.8vh;
+}
+.navbar-brand{
+  font-size:2.4vh;
+}
+.navbar-right{
+  margin-right: 0.5vw;
+}
+
+
+.overlay {
+  background: rgba(0, 144, 192, 0.4) url("../img/pattern.png") repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: 5;
+}
+.enterTriangle{
+	position: relative;
+	top: 43%;
+	transform: translateY(-50%);
+	text-align: center;
+	z-index: 100;
+	height: 48vh;
+}
+
+section{
+  padding-top: 150px;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-section {
+  height: 100%;
+  animation: backAn 200s infinite;
+  /*background-image: url("../img/home_compress.jpg");*/
+  background-image:url("../img/desk-panorama.jpg");
+}
+
+@keyframes backAn {
+   0%   { background-position:0% 100%; }
+   50%   { background-position:100% 100%; }
+   100%   { background-position:0% 100%; }
+}
+
+.about-section {
+  height: 100%;
+  background-image: url("../img/man-working-on-white-sofa-in-the-office-picjumbo-com.jpg");
+}
+.projects-section {
+  background-image: url("http://res.cloudinary.com/dcnoaicvi/image/upload/v1495192960/web-designer-sketching-a-wireframe-layout-ideas-in-a-notebook-picjumbo-com_wsltqe.jpg");
+  padding-bottom: 200px;
+}
+.project{
+  width: 250px;
+  height: 250px;
+  display:inline-block;
+  border-radius: 5px;
+  margin: 7px;
+  overflow: hidden;
+  background-color: white;
+  opacity: 0.85;
+  transition: all 0.4s ease-in-out;
+}
+.project img{
+  display: block;
+  margin:auto;
+  transition: all 0.4s ease-in-out;
+}
+.project:hover {
+  opacity: 1;
+}
+.project:hover img{
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.imgOverlay
+{
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+.imgOverlay .link
+{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #ff6f3f;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.zoom{
+  display: block;
+  margin-top: 50px;
+  font-size: 100px;
+  /* flip horizontal */
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.link{
+  color: #0090c0;
+}
+.imgOverlay:hover .link
+{
+  opacity: 0.9;
+}
+.contact-section {
+  height: 100%;
+  background-image: url("http://res.cloudinary.com/dcnoaicvi/image/upload/v1495194361/facebook-app-login-splash-screen-on-iphone-picjumbo-com_lhsrwj.jpg");
+}
+.well{
+  top: 0px;
+  /*background-color: rgba(0, 144, 192, 0.4);*/
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(11,51,70,0.8);
+  color: white;
+  padding-top: 5px;
+  /*border: 1px solid rgba(06, 54, 63 , 0.5);*/
+}
+.send{
+  width:100%;
+  padding: 10px;
+}
+.footer {	
+  background-color: rgba(249,249,249,0.8);
+  width: 100%;
+  position: fixed;
+  display:none;
+  z-index:100;
+  bottom:0px;
+  color: #333;
+}
+.KonradKisiel{
+  color: #555;
+}
